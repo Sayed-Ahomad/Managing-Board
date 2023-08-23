@@ -1,137 +1,206 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Leader-Board</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <section class="header">
-            <nav class="navbar">
-                <span class="leftside">
-                <a href="#" class="container"><img src="images/icons/logo.png" class="logo" alt="logo-p">Idea</a>
-                </span>
-                <span class="rightside">
-                <a href="#"class="container">Home</a>
-                <a href="#"class="container">About</a>
-                <a href="#"class="container">Works</a>
-                <a href="#"class="container"> <img src="images/icons/profile.png" class="profile"> </a>
-                </span>
-            </nav>
-        </section>
-        <!-- ========== Start top player ========== -->
-        <section class="topplayer">
-            <div class="topplayer-container">
-                <h1 class="topplayer-title"> Top Players </h1>
-               
-                <div class="persons">
-                    <div class="man"> <img src="images/players/player-1.png" class="person"><h3>John Smith</h3></div>
-
-                    <div class="man"> <img src="images/players/player-2.png" class="person"> <h3>Pro Rasel</h3></div>
-
-                    <div class="man"> <img src="images/players/player-3.png" class="person"> <h3>Abu Sufian</h3></div>
-
-                    <div class="man"> <img src="images/players/player-4.png" class="person"> <h3>Shajedul Karim</h3></div>
-
-                    <div class="man"> <img src="images/players/player-5.png" class="person"> <h3>Jasim uddin</h3></div>
-
-                    <div class="man"> <img src="images/players/player-6.png" class="person"> <h3>Shahin Ali</h3></div>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="section-header">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/icons/logo.png" alt="" class="logo">
                 </div>
-                <hr>
-
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Works</a></li>
+                            <li>
+                                <img src="images/icons/profile.png" alt="" class="user-image">
+                            </li>
+                        </ul>    
+                    </nav>
+                </div>
             </div>
-            
+        </div>
+    </header>
+    <main class="container">
+        <!-- Top players -->
+       <section class="section-players">
+        <div class="top-players">
+            <h3 class="section-title">
+                Top Player
+            </h3>
+            <div class="players">
+                <div class="player">
+                    <img src="images/players/player-1.png" alt="">
+                    <p class="user-name">John Smith</p>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-2.png" alt="">
+                    <p class="user-name">Pro Rasel</p>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-3.png" alt="">
+                    <p class="user-name">Maruf Ahmed</p>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-4.png" alt="">
+                    <p class="user-name">Abu Sufian</p>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-5.png" alt="">
+                    <p class="user-name">Mujahid</p>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-6.png" alt="">
+                    <p class="user-name">Shajedul Karim</p>
+                </div>
+            </div>
+        </div>
+        <hr>
 
-                <div class="top-blogs">
+        <!-- Top blogs -->
+        <div class="top-blogs">
+            <h3 class="section-title">
+                Top Blog
+            </h3>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="images/blogs/blog-1.png" alt="" class="blog-img">
+                    <div>
+                        <h4 class="blog-title">
+                            13 of My Favorite UI/UX Goodies
+                        </h4>
+                        <p class="author">
+                            <span>By</span><a href="">Danny Sapio</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="images/blogs/blog-2.png" alt="" class="blog-img">
+                    <div>
+                        <h4 class="blog-title">
+                            UI cheat sheet:
+                            list vs grids
+                        </h4>
+                        <p class="author">
+                            <span>By</span><a href="">Danny Sapio</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="images/blogs/blog-3.png" alt="" class="blog-img">
+                    <div>
+                        <h4 class="blog-title">
+                            7 typography tips for interface design
+                        </h4>
+                        <p class="author">
+                            <span>By</span><a href="">Danny Sapio</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="images/blogs/blog-4.png" alt="" class="blog-img">
+                    <div>
+                        <h4 class="blog-title">
+                            Your logo is copied
+                        </h4>
+                        <p class="author">
+                            <span>By</span><a href="">Danny Sapio</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
 
-                    <div class="section-title">
-                        <h1> Top Blogs </h1>
-                        <div class="blogtype">
-                            <article class="article">
-                                <div>
-                                <div class="thumnail">
-                                <img src="images/blogs/blog-1.png" class="blog-image" alt="">
-                                </div>
-                                <div>
-                                <h1>this is md. jasim uddin</p>
-                                </div>
-                                </div>
-                            </article>
-                        
-                            <article class="article">
-                                <img src="images/blogs/blog-2.png" class="blog-image">
-                                <p>this is md. jasim uddin</p>
-                            </article>
-                            <article class="article">
-                                <img src="images/blogs/blog-3.png" class="blog-image">
-                                <p>this is md. jasim uddin</p>
-                            </article>
-                            <article class="article">
-                                <img src="images/blogs/blog-4.png" class="blog-image">
-                                <p>this is md. jasim uddin</p>
-                            </article>
-
+       <!-- Courses -->
+       <section class="section-courses container">
+        <h3 class="section-title">
+            Lates Course
+        </h3>
+        <div class="courses">
+            <div class="course">
+                <img src="images/courses/course-1.png" alt="" class="course-img">
+                <h4 class="blog-title">
+                    React - The Complete Guide 2020
+                </h4>
+                <p class="c-author-name">
+                    Reed Krakoff.
+                </p>
+                <div class="ratings">
+                        <div class="rating">
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <span class="point">4.5</span>
                         </div>
-
-                    </div>
-
+                    <span class="time">
+                        <i class="fa-regular fa-clock"></i>
+                        01:30 hr
+                    </span>
                 </div>
-
-            
-        </section>
-
-        
-        <!-- ========== End top player ========== -->
-
-        <!-- ========== Start end section ========== -->
-        <section class="courses">
-            <div class="topcourses">
-
-                <h1 class="courses-title"> Top Courses</h1>
-
-                <div class="coursetype"> 
-
-                    <div class="course">
-
-                        <img src="images/courses/course-1.png" class="blog-image">
-                        <p>this is md. jasim uddin</p>
-
-                    </div>
-                    <div class="course">
-
-                        <img src="images/courses/course-2.png" class="blog-image">
-                        <p>this is md. jasim uddin</p>
-
-                    </div>
-                    <div class="course">
-
-                        <img src="images/courses/course-3.png" class="blog-image">
-                        <p>this is md. jasim uddin</p>
-
-                    </div>
-                    
-                </div>
-
             </div>
-        </section>
 
-        
-        <!-- ========== End end section ========== -->
+            <div class="course">
+                <img src="images/courses/course-2.png" alt="" class="course-img">
+                <h4 class="blog-title">
+                    Powerpoint 2020 Master Powerpoint Cour                </h4>
+                <p class="c-author-name">
+                    Reed Krakoff.
+                </p>
+                <div class="ratings">
+                        <div class="rating">
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <span class="point">4.5</span>
+                        </div>                  
+                    <span class="time">
+                        <i class="fa-regular fa-clock"></i>
+                        01:30 hr
+                    </span>
+                </div>
+            </div>
 
-
-
-        
-        <script src="" async defer></script>
-    </body>
+            <div class="course">
+                <img src="images/courses/course-3.png" alt="" class="course-img">
+                <h4 class="blog-title">
+                    React - The Complete Guide 2020
+                </h4>
+                <p class="c-author-name">
+                    Reed Krakoff.
+                </p>
+                <div class="ratings">
+                        <div class="rating">
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star fill"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <span class="point">4.5</span>
+                        </div>
+                    <span class="time">
+                        <i class="fa-regular fa-clock"></i>
+                        01:30 hr
+                    </span>
+                </div>
+            </div>
+        </div>
+       </section>
+    </main>
+</body>
 </html>
